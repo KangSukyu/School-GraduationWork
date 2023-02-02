@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+.k,.checkbox {
+  color: aqua;
+  text-align: center;
+}
+
+/* ゲームイメージサイズ */
+.size {
+  object-fit: contain;
+  height: 300px; 
+  width: 500px;
+  float: left;
+}
+.gazou {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  max-height: 300px; 
+}
+
+/* -------- 田中タブメニュー --------- */
+/*tabの形状*/
+
+
+/*liにactiveクラスがついた時の形状*/
+/* .tab li.active a{
+  background:rgb(255, 0, 0);
+  color: #00ff6a;
+}  */
+
+/*エリアの表示非表示と形状*/
+/* .area {
+	display: none;/*はじめは非表示*/
+	/* opacity: 0;/*透過0*/
+	/* background: #fff;
+	padding:50px 20px;
+}  */ 
+
+/*areaにis-activeというクラスがついた時の形状*/
+/* .area.is-active {
+    display: block;/*表示*/
+    /* animation-name: displayAnime;ふわっと表示させるためのアニメーション
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+} */ 
+
+/* @keyframes displayAnime{
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.tab input:checked + .tab_item {
+  background-color: #5ab4bd;
+  color: #fff;
+} */
+
+/*========= レイアウトのためのCSS ===============*/
+
+body{
+  background-color: rgb(30, 30, 36);
+}
+h1{
+  font-size: 3em;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	/* color: #FFF;
+	text-shadow: 0 0 0.2em rgb(255, 0, 0); */
+  color: #fff;
+  text-shadow: -4px 3px 0 #fa4141, -8px 6px 0 #000;
+}
+
+
+ul{
+  list-style:none;
+  display: flex;
+}
+
+a{
+  color:#333;
+  text-decoration: none;
+}
+
+/* .wrapper{
+  width:100%;
+  max-width: 960px;
+  margin:30px auto;
+    background:#fefefe;
+} */
+
+/*.area h2{
+  font-size:1.3rem;
+  margin:0 0 20px 10px;
+}  */
+
+/* .area li{
+  padding: 10px; 
+  border-bottom: 1px solid #ddd;
+} */
+
+/* 田中タブ　レイアウト */
+.tab{
+  list-style:none;
+  text-decoration:none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tktab{
+  margin: 0 auto;
+  text-align:center;
+  list-style:none;
+  text-decoration:none;
+  display: flex;
+}
+
+.yoko{
+  flex-wrap: wrap;
+  float: left;
+}
+
+.tt{
+  color: rgb(78, 210, 233);
+  text-align:center;
+}
+/* 画像の上にマウス */
+.maov {
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+  display: flex;
+}
+.maov .moji {
+	font-size:		130%;
+	color:			#fff;
+	padding-top:		50px;
+	padding-left:		0px;
+}
+.maov .kabuse {
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.6s ease;
+	transition:		all 0.6s ease;
+}
+.maov:hover .kabuse {
+	opacity:		1;	/* マスクを表示する */
+	/* padding-left:		90px;	右にずらす */
+}
+
+tr{
+  color: rgb(78, 210, 233);
+}
+
+.tc{
+  display: block;
+  border-color: rgb(133, 255, 103);
+  background:rgb(30, 30, 36);
+  color: rgb(78, 210, 233);
+  font-size: 130%;
+  margin:0 2px;
+  padding:10px 20px;
+  background-color: rgb(30, 30, 36);;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all  0.5s ease;
+}
+.tc:hover{
+  box-shadow: 0 0 0.2em rgb(133, 255, 103);
+  color:rgb(133, 255, 103);
+}

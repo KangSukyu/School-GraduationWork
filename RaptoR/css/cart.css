@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(30, 30, 36);
+}
+tr,a,p,price {
+    color:rgb(78, 210, 233);
+}
+
+p {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+.name{
+    font-size: 130%;
+    color: #FFF;
+	text-shadow: 
+		0 0 0.05em #fff67e,
+		0 0 0.10em #fff67e,
+		0 0 0.15em #7eecff,
+		0 0 0.30em #7eecff;
+}
+.carthaba{
+    width: 1200px;	   /*全体の幅を指定する*/  
+    margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
+    background-color: rgb(50, 50, 56);
+}
+.btnyoko{
+    display: flex;
+    justify-content: center;
+}
+.btnkotei{
+    margin-top: 20px;
+    display: flex;
+	justify-content: center;
+}
+.moji{
+    color: white;
+}
+.allbuy{
+    margin-right: 10px;
+    width: 300px;
+    height: 100px;
+    font-size: 170%;
+    color:#FFF;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all  0.5s ease;
+	font-weight:bold;
+	text-shadow: 0 0 0.2em rgba(0,0,0,1);
+    border-radius: 10px;
+}
+.allbuy:hover{
+    background-color: rgb(30, 30, 36);
+    box-shadow: 0 0 0.2em rgb(133, 255, 103);
+}
+.allbye{
+    width: 300px;
+    height: 100px;
+    font-size: 170%;
+    color:#FFF;
+    background-color: rgb(255, 255, 255);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all  0.5s ease;
+	font-weight:bold;
+	text-shadow: 0 0 0.2em rgba(0,0,0,1);
+    border-radius: 10px;
+}
+.allbye:hover{
+    background-color: rgb(30, 30, 36);
+    box-shadow: 0 0 0.2em rgb(255, 129, 129);
+}
+h1 {
+    font-size: 3em;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	/* color: #FFF;
+	text-shadow: 0 0 0.2em rgb(255, 0, 0); */
+  color: #fff;
+  text-shadow: -4px 3px 0 green, -8px 6px 0 #000;
+  }
+.osusume{
+    color:rgb(127, 255, 212);
+
+}
+.onebuy{
+    width: 120px;
+    height: 80px;
+    font-size: 170%;
+    color: #fff;
+    background-color: rgb(30, 30, 36);;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all  0.5s ease;
+}
+.onebuy:hover{
+    background-color: rgb(133, 255, 103);
+}
+.onebye{
+    width: 120px;
+    height: 80px;
+    font-size: 170%;
+    color: #fff;
+    background-color: rgb(30, 30, 36);;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all  0.5s ease;
+}
+.onebye:hover{
+    background-color: rgb(255, 129, 129);
+}

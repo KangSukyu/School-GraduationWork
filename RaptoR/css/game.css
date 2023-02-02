@@ -1,0 +1,86 @@
+
+body{
+    width:100%;
+    text-align:center;
+    background-color: rgb(30, 30, 36);
+}
+
+tr{
+    color: rgb(40, 213, 243);
+}
+h1{
+    font-size:50px;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	color: #FFF;
+	text-shadow: 
+		0 0 0.05em #fff67e,
+		0 0 0.10em #fff67e,
+		0 0 0.15em #7eecff,
+		0 0 0.30em #7eecff;
+	filter: saturate(80%);
+	-webkit-box-reflect: below -0.25em -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, .6)), to(transparent));
+
+}
+
+.center{
+    width: 1500px;	   /*全体の幅を指定する*/  
+    margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
+    text-align:left;   /*全体を左揃えにする。*/
+}
+
+video {
+    /* object-fit: cover; */
+    width: 100%;
+    max-width: 400px; /* 最大でも400px以下に */
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+.width { width: 1000px; }
+
+.setuko{
+    color: rgb(40, 213, 243);
+}
+/* おすすめ */
+.osusume{
+    color:rgb(127, 255, 212);
+    font-size: large;
+    position: relative;
+    display: inline-block;
+    height: 64px;
+    margin-left: 30px;
+    padding: 1rem 2rem 1rem 2rem;
+    background: #fa4141;
+}
+      
+.osusume:before {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    content: '';
+    border-width: 32px 30px 32px 0;
+    border-style: solid;
+    border-color: transparent #fa4141 transparent transparent;
+}
+      
+.osusume:after {
+    position: absolute;
+    top: calc(50% - 7px);
+    left: -10px;
+    width: 14px;
+    height: 14px;
+    content: '';
+    border-radius: 50%;
+    background: #fff;
+}
+
+.Explanation{
+    color: rgb(255, 255, 255);
+}
+.moto{
+    color: rgb(255, 255, 255);
+    /* display: inline-block; */
+}
+

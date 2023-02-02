@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(30, 30, 36);
+}
+tr,a,p,h3,.gamename{
+    color:rgb(78, 210, 233);
+}
+
+.lank{
+    text-align:center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: large;
+}
+#Uimg{
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+}
+.uri{
+    background-color: rgb(50, 50, 56);
+}
+.rank{
+    font-weight: bold;
+}
+/* タイトル */
+h2{
+  font-size: 3em;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	/* color: #FFF;
+	text-shadow: 0 0 0.2em rgb(255, 0, 0); */
+  color: #fff;
+  text-shadow: -4px 3px 0 #0062ff, -8px 6px 0 #000;
+}
+
+.name{
+    color: #FFF;
+	text-shadow: 
+		0 0 0.05em #fff67e,
+		0 0 0.10em #fff67e,
+		0 0 0.15em #7eecff,
+		0 0 0.30em #7eecff;
+}

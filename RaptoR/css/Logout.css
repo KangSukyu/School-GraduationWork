@@ -1,0 +1,15 @@
+h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	/* color: #FFF;
+	text-shadow: 0 0 0.2em rgb(255, 0, 0); */
+  color: #fff;
+  text-shadow: -4px 3px 0 tomato, -8px 6px 0 #000;
+
+}

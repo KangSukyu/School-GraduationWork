@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+a{
+    color : rgb(78, 210, 233);
+}
+.iro{
+    background-color: #14283F;
+}
+
+#kensaku{
+    margin-top: 50px;
+    /* display:inline-block; */
+    text-align: right;
+    font-size: 120%;
+    clear: none;
+    color: #ffffff;
+}
+.kbtn{
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;
+    border: #000000 solid 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.kbtn:hover {
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+input{
+    font-size: 70%;
+}
+
+.logo{
+    float: left;
+}
+
+
+
+.loginBtn{
+    /* margin-right: 0px; */
+    font-size: 200%;
+    /* text-align: center; */
+    height: 250px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    /* clear: right; */
+    /* margin-top: 100px; */
+    float: right;
+}
+.loginBtn:hover {
+    background-color: #000000;
+    border: 2px solid #000000;
+    color: #ffffff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.member{
+    /* float: right; */
+    /* text-align: right; */
+    color: black;
+    /* clear: none; */
+}
+.mname{
+    font-size: 130%;
+    color: black;
+    /* clear: none; */
+}
+
+h1{
+    text-align: center;
+}
+
+.gnavi{
+    clear: both;
+    background-color: #d4f6ff;
+}
+.gnavi th a{
+    display: block;
+   padding:10px 30px;
+    text-decoration: none;
+    color: #333;
+}
+.gnavi th a{
+    /*線の基点とするためrelativeを指定*/
+  position: relative;
+}
+.gnavi th.current a,
+.gnavi th a:hover{
+  color:#0481A2;
+}
+
+.gnavi th a::after {
+    content: '';
+    /*絶対配置で線の位置を決める*/
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    /*線の形状*/
+    width: 80%;
+    height: 2px;
+    background:#0481A2;
+    /*アニメーションの指定*/
+    transition: all .3s;
+    transform: scale(0, 1);/*X方向0、Y方向1*/
+    transform-origin: center top;/*上部中央基点*/
+}
+
+/*現在地とhoverの設定*/
+.gnavi th.current a::after,
+.gnavi th a:hover::after {
+    transform: scale(1, 1);/*X方向にスケール拡大*/
+}
+
+/* -------------------田中ーーーーーーーーーーーーーーー */
+/* 14283F */
+
+.header{
+    height: 250px;
+}
+
+/* kang */
+
+/* ul {
+    padding: 16px 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 14px;
+    letter-spacing: -.5px;
+}
+
+form {
+    padding-top: 16px;
+}
+
+ul li.tag-item {
+    padding: 4px 8px;
+    background-color: #777;
+    color: #000;
+}
+
+.tag-item:hover {
+    background-color: #262626;
+    color: #fff;
+}
+
+.del-btn {
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8px;
+} */
